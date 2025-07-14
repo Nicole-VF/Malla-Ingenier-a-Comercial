@@ -29,7 +29,7 @@ const cursos = [
   { codigo: "BSC-222", nombre: "Estadísticas para las Ciencias Sociales y Administrativas", semestre: 4, creditos: 6, prereqs: ["BSC-212"] },
   { codigo: "BSC-223", nombre: "Taller de Diseño de Proyectos de Investigación", semestre: 4, creditos: 8, prereqs: [] }, // Requiere todos hasta el III semestre: para simplificar, se desbloquea al aprobar semestre 3
   { codigo: "BSC-224", nombre: "Economía y Territorio", semestre: 4, creditos: 5, prereqs: ["BSC-125"] },
-  { codigo: "BSC-225", nombre: "Profundización II", semestre: 4, creditos: 5, prereqs: [] },
+  { codigo: "ICM-225", nombre: "Profundización II: Marketing I", semestre: 4, creditos: 5, prereqs: [] },
   { codigo: "IFG-300", nombre: "Inglés III", semestre: 4, creditos: 3, prereqs: ["IFG-200"] },
 
   // Año 3 - V Semestre (5)
@@ -38,7 +38,7 @@ const cursos = [
   { codigo: "ICM-313", nombre: "Inferencia Estadística para Economía y Negocios", semestre: 5, creditos: 5, prereqs: ["BSC-222"] },
   { codigo: "ICM-314", nombre: "Contabilidad Financiera", semestre: 5, creditos: 4, prereqs: [] },
   { codigo: "ICM-315", nombre: "Macroeconomía para la Gestión", semestre: 5, creditos: 4, prereqs: ["BSC-125"] },
-  { codigo: "ICM-316", nombre: "Marketing II", semestre: 5, creditos: 4, prereqs: ["ICM-225"] }, // Profundización II: Marketing I (ICM-225) no está en la lista, asumo prereq como código de Profundización II
+  { codigo: "ICM-316", nombre: "Marketing II", semestre: 5, creditos: 4, prereqs: ["ICM-225"] },
   { codigo: "MFG-114", nombre: "Introducción a la Fe", semestre: 5, creditos: 5, prereqs: [] },
 
   // Año 3 - VI Semestre (6)
