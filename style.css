@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f0f4f8;
+  background-color: #fff0f5; /* Fondo rosa muy claro */
   margin: 0;
   padding: 2rem;
   color: #333;
@@ -9,6 +9,7 @@ body {
 h1 {
   text-align: center;
   margin-bottom: 2rem;
+  color: #c2185b; /* Título en rosado oscuro */
 }
 
 .grid-container {
@@ -20,8 +21,8 @@ h1 {
 }
 
 .semestre {
-  background-color: #fff;
-  border: 2px solid #007acc;
+  background-color: #ffffff;
+  border: 2px solid #f48fb1; /* Borde rosa claro */
   border-radius: 12px;
   padding: 1rem;
   box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
@@ -30,14 +31,14 @@ h1 {
 
 .semestre h2 {
   text-align: center;
-  color: #007acc;
+  color: #ec407a; /* Títulos de semestre en rosado */
   margin-bottom: 1rem;
 }
 
 .curso {
-  background-color: #e6f2ff;
+  background-color: #fce4ec; /* Rosa muy suave */
   padding: 0.5rem;
-  border: 1px solid #007acc;
+  border: 1px solid #f48fb1;
   border-radius: 8px;
   margin-bottom: 0.5rem;
   font-size: 0.9rem;
@@ -47,10 +48,16 @@ h1 {
 }
 
 .curso.locked {
-  background-color: #f0f0f0;
-  border: 1px dashed #999;
+  background-color: #f8f8f8;
+  border: 1px dashed #bbb;
   color: #aaa;
   cursor: not-allowed;
+}
+
+.curso.unlocked {
+  background-color: #f8bbd0; /* Rosa pastel desbloqueado */
+  color: #000;
+  font-weight: bold;
 }
 
 .curso.unlocked {
