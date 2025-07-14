@@ -60,18 +60,23 @@ const cursos = [
   { codigo: "CFG2", nombre: "Certificación II", semestre: 7, creditos: 5, prereqs: ["CFG"] },
 
   // Año 4 - VIII Semestre (8)
-  { codigo: "ICM-421", nombre: "Práctica Inicial", semestre: 8, creditos: 10, prereqs: [] }, // Requiere aprobar todo hasta el VII semestre, para simplificar lo dejamos desbloqueado
-  { codigo: "ICM-422", nombre: "Implementación Estratégica", semestre: 8, creditos: 3, prereqs: ["ICM-411", "ICM-316"] },
-  { codigo: "ICM-423", nombre: "Gestión de operaciones", semestre: 8, creditos: 4, prereqs: ["ICM-414", "BSC-215"] },
-  { codigo: "ICM-424", nombre: "Análisis Financiero", semestre: 8, creditos: 5, prereqs: ["ICM-414"] },
-  { codigo: "ICM-425", nombre: "Seminario de Tesis I", semestre: 8, creditos: 4, prereqs: [] },
-  { codigo: "MFG-314", nombre: "Filosofía Social", semestre: 8, creditos: 5, prereqs: ["MFG-216"] },
+{ codigo: "ICM-421", nombre: "Práctica Inicial", semestre: 8, creditos: 10, prereqs: [] }, // requiere TODO aprobado hasta VII; dejar vacío para manejo manual
+{ codigo: "ICM-422", nombre: "Implementación Estratégica", semestre: 8, creditos: 3, prereqs: ["ICM-411", "ICM-316"] },
+{ codigo: "ICM-423", nombre: "Gestión de operaciones", semestre: 8, creditos: 4, prereqs: ["ICM-414", "BSC-215"] },
+{ codigo: "ICM-424", nombre: "Investigación de Mercados", semestre: 8, creditos: 4, prereqs: ["ICM-413", "ICM-316"] },
+{ codigo: "ICM-425", nombre: "Formulación y Evaluación de Proyectos", semestre: 8, creditos: 5, prereqs: [] }, // idem ICM‑421
+{ codigo: "CFG-III", nombre: "Certificación III", semestre: 8, creditos: 5, prereqs: ["CFG-II"] },
 
   // Año 5 - IX Semestre (9)
-  { codigo: "ICM-511", nombre: "Seminario de Tesis II", semestre: 9, creditos: 5, prereqs: ["ICM-425"] },
-  { codigo: "ICM-512", nombre: "Práctica Profesional", semestre: 9, creditos: 15, prereqs: ["ICM-421"] },
-  { codigo: "ICM-513", nombre: "Curso de Profundización", semestre: 9, creditos: 6, prereqs: ["ICM-415"] },
+{ codigo: "ICM-511", nombre: "Práctica Profesional", semestre: 9, creditos: 16, prereqs: [] }, // requiere TODO aprobado hasta VIII
+{ codigo: "ICM-512", nombre: "Contabilidad Gerencial", semestre: 9, creditos: 3, prereqs: ["ICM-422"] },
+{ codigo: "ICM-513", nombre: "Estrategia Financiera", semestre: 9, creditos: 4, prereqs: ["ICM-422"] },
+{ codigo: "ICM-514", nombre: "Seminario de Investigación", semestre: 9, creditos: 6, prereqs: ["IFG-300"] }, // y todo aprobado hasta VIII (manejo manual)
+{ codigo: "ICM-515", nombre: "Diseño de Negocios", semestre: 9, creditos: 4, prereqs: [] }, // idem ICM‑511/514
 
   // Año 5 - X Semestre (10)
-  { codigo: "ICM-611", nombre: "Seminario de Titulación", semestre: 10, creditos: 5, prereqs: ["ICM-511"] },
-];
+{ codigo: "ICM-521", nombre: "Taller Profesional", semestre: 10, creditos: 3, prereqs: [] }, // requiere TODO aprobado hasta IX
+{ codigo: "ICM-522", nombre: "Tesis", semestre: 10, creditos: 9, prereqs: ["ICM-514"] },
+{ codigo: "ICM-523", nombre: "Electivo I", semestre: 10, creditos: 5, prereqs: [] },  // requiere TODO aprobado hasta VIII
+{ codigo: "ICM-524", nombre: "Electivo II", semestre: 10, creditos: 5, prereqs: [] }, // idem
+{ codigo: "ICM-525", nombre: "Electivo III", semestre: 10, creditos: 5, prereqs: [] }, // idem
