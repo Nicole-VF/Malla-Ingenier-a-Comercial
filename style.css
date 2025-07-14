@@ -1,0 +1,60 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 2rem;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.semestre {
+  background-color: #fff;
+  border: 2px solid #007acc;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  min-height: 250px;
+}
+
+.semestre h2 {
+  text-align: center;
+  color: #007acc;
+  margin-bottom: 1rem;
+}
+
+.curso {
+  background-color: #e6f2ff;
+  padding: 0.5rem;
+  border: 1px solid #007acc;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.curso.locked {
+  background-color: #f0f0f0;
+  border: 1px dashed #999;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+.curso.unlocked {
+  background-color: #d0f0d0;
+  color: #000;
+  font-weight: bold;
+}
