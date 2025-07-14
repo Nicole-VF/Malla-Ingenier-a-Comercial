@@ -26,7 +26,7 @@ const cursos = [
 
   // Año 2 - IV Semestre (4)
   { codigo: "BSC-221", nombre: "Organizaciones", semestre: 4, creditos: 4, prereqs: [] },
-  { codigo: "BSC-222", nombre: "Estadísticas para las Ciencias Sociales y Administrativas", semestre: 4, creditos: 6, prereqs: ["BSC-212"] },
+  { codigo: "BSC-222", nombre: "Estadísticas para las CCSS y Administrativas", semestre: 4, creditos: 6, prereqs: ["BSC-212"] },
   { codigo: "BSC-223", nombre: "Taller de Diseño de Proyectos de Investigación", semestre: 4, creditos: 8, prereqs: [] },
   { codigo: "BSC-224", nombre: "Economía y Territorio", semestre: 4, creditos: 5, prereqs: ["BSC-125"] },
   { codigo: "ICM-225", nombre: "Profundización II: Marketing I", semestre: 4, creditos: 5, prereqs: [] },
@@ -56,7 +56,7 @@ const cursos = [
   { codigo: "ICM-413", nombre: "Econometría", semestre: 7, creditos: 4, prereqs: ["BSC-215", "ICM-313", "ICM-315", "ICM-323"] },
   { codigo: "ICM-414", nombre: "Gestión Financiera", semestre: 7, creditos: 4, prereqs: ["ICM-322"] },
   { codigo: "ICM-415", nombre: "Innovación Empresarial", semestre: 7, creditos: 4, prereqs: ["ICM-325"] },
-  { codigo: "ICM-416", nombre: "Sustentabilidad y Responsabilidad Social Empresarial", semestre: 7, creditos: 4, prereqs: ["ICM-321"] },
+  { codigo: "ICM-416", nombre: "Sustentabilidad y RSE", semestre: 7, creditos: 4, prereqs: ["ICM-321"] },
   { codigo: "CFG2", nombre: "Certificación II", semestre: 7, creditos: 5, prereqs: ["CFG"] },
 
   // Año 4 - VIII Semestre (8)
@@ -81,4 +81,3 @@ const cursos = [
   { codigo: "ICM-524", nombre: "Electivo II", semestre: 10, creditos: 5, prereqs: [] },
   { codigo: "ICM-525", nombre: "Electivo III", semestre: 10, creditos: 5, prereqs: [] }
 ];
-
